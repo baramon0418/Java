@@ -12,7 +12,7 @@ public class Int2Hwd {
 		num1 = input.next();
 		
 		switch(num1) {
-		case "하나", "일", "첫째":
+		case "하나", "일", "첫째": //숫자로 한글을 입력하세요일 때는 case 1:print("하나")
 			System.out.print("1");
 			break;
 		case "둘", "이", "둘째":
@@ -25,3 +25,12 @@ public class Int2Hwd {
 	}
 
 }
+
+/**
+ * int monthNumber;
+ * switch (month)
+ * case "january":
+ *   monthNumber = 1;
+ *   break;
+ *   
+ * System.out.println(monthNumber);*/
