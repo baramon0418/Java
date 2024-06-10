@@ -20,6 +20,7 @@ public class MedianFive {
       Arrays.sort(numbers);
 
       int middleIndex = numbers.length / 2;
+      System.out.println("정렬된 리스트: " + Arrays.toString(numbers));
       System.out.println("가운데 값은: " + numbers[middleIndex]);
   }
 }
